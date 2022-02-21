@@ -1,0 +1,81 @@
+*,
+::after,
+::before {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+header li {
+  list-style: none;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 20px;
+  margin: 10px 30px;
+  align-items: center;
+}
+header nav a {
+  font-size: 20px;
+  padding: 0 20px;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: circle;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+img {
+  max-width: 100%;
+}
+.title {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.container .content-image img {
+  width: 200px;
+}
+.content {
+  display: flex;
+  gap: 20px;
+}
+
+.content-side li {
+  padding: 5px 0;
+  font-size: 18px;
+}
+
+.content li span {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+/* recipe section */
+
+.ingredients-title {
+  font-size: 25px;
+  padding: 18px 10px;
+}
+hr {
+  width: 200px;
+}
+
+.ingredients-list li {
+  padding: 10px 0;
+}
+.directions h2 {
+  font: 25px;
+  margin: 20px 0;
+}
+
+.directions ol li {
+  list-style: inherit;
+  padding: 17px 0;
+  font-size: 17px;
+}
