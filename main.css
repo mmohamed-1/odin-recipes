@@ -15,6 +15,9 @@ header nav {
   margin: 10px 30px;
   align-items: center;
 }
+header nav ul {
+  display: flex;
+}
 header nav a {
   font-size: 20px;
   padding: 0 20px;
@@ -39,7 +42,7 @@ img {
 }
 
 .container .content-image img {
-  width: 200px;
+  width: 300px;
 }
 .content {
   display: flex;
@@ -49,6 +52,7 @@ img {
 .content-side li {
   padding: 5px 0;
   font-size: 18px;
+  list-style-type: none;
 }
 
 .content li span {
